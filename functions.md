@@ -1,0 +1,202 @@
+- on (part) collide with (other) at (velocity) and (impulse)
+- on (part) exploded
+- on (craftA) and (craftB) docked
+- on enter (planet) SOI
+- receive [message] with (data)
+- on start
+
+- wait [number] seconds
+- broadcast [message] with [data]
+- broadcast [message] with [data] to craft
+- broadcast [message] with [data] to nearby crafts
+- set [variable] to [value]
+- change [variable] by [value]
+- set [variable] to user input [ask]
+- add [item] to [list]
+- insert [item] at [index] in [list]
+- remove [index] from [list]
+- sort [list]
+- reverse [list]
+- set list [list] to [list]
+- remove all from [list]
+- repeat [number] times
+- while [condition]
+- for (i) from [start] to [end] by [step]
+- if [condition]
+- if [condition] else
+- if [condition] else if [condition]
+- flight log [message]
+- local log [message]
+- wait until [condition]
+- display [message]
+
+- set Roll to [number]
+- set Pitch to [number]
+- set Yaw to [number]
+- set Throttle to [number]
+- set Brake to [number]
+- set Slider1 to [number]
+- set Slider2 to [number]
+- set Slider3 to [number]
+- set Slider4 to [number]
+- set TranslateForward to [number]
+- set TranslateRight to [number]
+- set TranslateUp to [number]
+- set TranslationMode to [boolean]
+- set craft Heading to [number]
+- set craft Pitch to [number]
+- set craft RollPIDs to [vec]
+- set craft PitchPIDs to [vec]
+- target node [string]
+- set AG [num] to [boolean]
+- lock heading on [None, Prograde, Retrograde, Target, BurnNode, Current]
+- lock heading on vector [vec]
+- set time mode to [Paused, SlowMotion, Normal, FastForward, TW1, ..., TW10]
+- set camera XRot to [number]
+- set camera YRot to [number]
+- set camera Tilt to [number]
+- set camera Zoom to [number]
+- set camera Camera Mode to [string]
+- set camera Camera Index to [number]
+- set camera Target Offset to [number]
+- switch to craft [number]
+- set part [number] Activated to [boolean]
+- set part [number] Focused to [boolean]
+- set part [number] Name to [string]
+- set part [number] Explode to [number]
+- set part [number] Fuel Transfer to [number]
+- beep [number] Hz at [volume] for [seconds]
+
+
+- frequency of [string] octave [number]
+- altitude [AGL, ASL, ASF]
+- orbit [Apoapsis, Periapsis, TimeToApo, TimeToPer, Ecc, Inc, Period]
+- atmosphere [AirDensity, AirPressure, SoundSpeed, Temperature]
+- performance [EngineThrust, Mass, DryMass, FuelMass, MaxThrust, TWR, CurentISP, StageDV, StageBurnTime]
+- fuel [Battery, Stage, Mono, AllStages]
+- nav Position
+- nav TargetPosition
+- nav Heading
+- nav Pitch
+- nav BankAngle
+- nav AoA
+- nav SideSlip
+- nav North
+- nav East
+- nav RollAxis
+- nav PitchAxis
+- nav YawAxis
+- velocity Surface
+- velocity Orbit
+- velocity Target
+- velocity Gravity
+- velocity Drag
+- velocity Acceleration
+- velocity Angular
+- velocity Lateral
+- velocity Vertical
+- velocity Mach
+- input [Roll, Pitch, Yaw, Throttle, Brake, Slider1, Slider2, Slider3, Slider4, TranslateForward, TranslateRight, TranslateUp, TranslationMode]데
+- misc Stage
+- misc NumStages
+- misc Grounded
+- misc SolarRadiation
+- misc UserCameraPosition
+- misc UserCameraPointing
+- misc UserCameraUp
+- misc PitchPIDs
+- misc RollPIDs
+- time FrameDeltaTime
+- time TimeSinceLaunch
+- time TotalTime
+- time WarpAmount
+- time RealTime
+- name of [Craft, Planet, TargetName, TargetPlanet]
+- AG [number]
+- convert [vector] to Lat/Long/AGL
+- convert [vector] to Lat/Long/ASL
+- convert [vector] to position
+- convert [vector] to position over sea
+- get terrain Height at lat/long [vector]
+- get terrain Color at lat/long [vector]
+- cast a ray from [vector] towards [vector]
+- planet [name] Mass
+- planet [name] Radius
+- planet [name] AtmosphereHeight
+- planet [name] SOIRadius
+- planet [name] SolarPosition
+- planet [name] ChildPlanets
+- planet [name] Crafts
+- planet [name] CraftIDs
+- planet [name] Parent
+- planet [name] Structures
+- planet [name] LengthOfDay
+- planet [name] LengthOfYear
+- planet [name] Velocity
+- planet [name] [OrbitApoapsis, OrbitPeriapsis, OrbitPeriod, OrbitApoapsisTime, OrbitPeriapsisTime, OrbitInclination, OrbitEccentricity, OrbitMeanAnomaly, OrbitMeanMotion, OrbitPeriapsisArgument, OrbitRightAscension, OrbitSemiMajorAxis, OrbitSemiMinorAxis]
+- part [id] [Name, Mass, DryMass, WetMass, Activated, PartType, Position, Temperature, Drag, ThisPartID, MaxPartID, MinPartID, UnderWater]
+- partIDof [name]
+- part [id] LocalToPCI [vector]
+- part [id] PCIToLocal [vector]
+- craft [id] [Altitude, Destroyed, Grounded, Mass, Name, PartCount, Planet, Position, Velocity, IsPlayer, BoundingBoxMin, BoundingBoxMax, OrbitApoapsis, OrbitPeriapsis, OrbitPeriod, OrbitApoapsisTime, OrbitPeriapsisTime, OrbitInclination, OrbitEccentricity, OrbitMeanAnomaly, OrbitMeanMotion, OrbitPeriapsisArgument, OrbitRightAscension, OrbitTrueAnomaly, OrbitSemiMajorAxis, OrbitSemiMinorAxis]
+
+- true
+- false
+- [number] == [number]
+- [number] + [number]
+- [number] - [number]
+- [number] * [number]
+- [number] / [number]
+- [number] % [number]
+- [number] ^ [number]
+- random [number] to [number]
+- min of [number] and [number]
+- max of [number] and [number]
+- [condition] or [condition]
+- [condition] and [condition]
+- not [condition]
+- [number] < [number]
+- [number] > [number]
+- [number] <= [number]
+- [number] >= [number]
+- abs [number]
+- round [number]
+- floor [number]
+- ceil [number]
+- sqrt [number]
+- sin [number]
+- cos [number]
+- tan [number]
+- asin [number]
+- acos [number]
+- atan [number]
+- ln [number]
+- log10 [number]
+- deg2rad [number]
+- rad2deg [number]
+- atan2 of [number] and [number]
+- if [condition] then [number] else [number]
+- join [string] and [string]
+- length of [string]
+- letter [number] of [string]
+- letter [number] to [number] of [string]
+- [string] contains [string]
+- format [format] [...any]
+- vec [number] [number] [number]
+- [vector] length
+- [vector] x
+- [vector] y
+- [vector] z
+- [vector] norm
+- [vector] angle [vector]
+- [vector] dot [vector]
+- [vector] cross [vector]
+- [vector] clamp [vector]
+- [vector] dist [vector]
+- [vector] min [vector]
+- [vector] max [vector]
+- [vector] project [vector]
+- [vector] scale [vector]
+- fUNk [expression]
+- create list from [string]
+
